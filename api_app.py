@@ -27,6 +27,3 @@ def api_predict():
 
     # Return the prediction in JSON format
     return jsonify({'prediction': prediction[0]})
-
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8000)
